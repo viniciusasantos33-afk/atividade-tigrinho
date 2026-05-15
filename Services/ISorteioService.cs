@@ -6,5 +6,6 @@ namespace LittleTigerV2.Services
     {
         ResultadoGiro RealizarSorteio(string ip); 
         ResultadoGiro ObterEstadoAtual(string ip);
+        void LimparHistorico(string ip);
     }
 }

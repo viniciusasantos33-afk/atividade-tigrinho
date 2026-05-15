@@ -67,5 +67,10 @@ namespace LittleTigerV2.Services
                 Mensagem = venceu ? "✨ O TIGRINHO SOLTOU A CARTA! ✨" : "O Tigre está faminto... tente de novo!"
             };
         }
+        
+        public void LimparHistorico(string ip)
+        {
+            _repository.DeletarPorIp(ip);
+        }
     }
 }

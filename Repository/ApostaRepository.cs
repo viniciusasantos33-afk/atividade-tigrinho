@@ -22,5 +22,12 @@ namespace LittleTigerV2.Repositories
                 .OrderByDescending(a => a.DataAposta)
                 .FirstOrDefault();
         }
+        
+        public void DeletarPorIp(string ip)
+        {
+            var apostas = _context.Apostas.Where(a => a.UsuarioIp == ip);
+            _context.Apostas.RemoveRange(apostas);
+            _context.SaveChanges();
+        }
     }
 }

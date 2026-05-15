@@ -5,6 +5,7 @@ namespace LittleTigerV2.Repositories
     public interface IApostaRepository
     {
         void SalvarAposta(Aposta aposta);
-        Aposta ObterUltimaPorIp(string ip); 
+        Aposta ObterUltimaPorIp(string ip);
+        void DeletarPorIp(string ip);
     }
 }

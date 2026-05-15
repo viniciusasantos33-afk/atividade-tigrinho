@@ -10,8 +10,15 @@
     <h2 style="color: @(Model.Venceu ? "lime" : "orange")">@Model.Mensagem</h2>
 
     <form asp-controller="Tigrinho" asp-action="Girar" method="post">
-        <button type="submit" class="btn-spin">
+        <button type="submit" style="background: yellow; border: 1px solid #444; color: #888; cursor: pointer; padding: 5px 15px; border-radius: 5px;">
             GIRAR AGORA! 🎲
+        </button>
+        
+    </form>
+    
+    <form asp-action="Limpar" method="post" style="margin-top: 10px;">
+        <button type="submit" style="background: none; border: 1px solid #444; color: #888; cursor: pointer; padding: 5px 15px; border-radius: 5px;">
+            Apagar meu histórico 🗑️
         </button>
     </form>
 </div>

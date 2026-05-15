@@ -25,5 +25,13 @@ namespace LittleTigerV2.Controllers
 
             return RedirectToAction("Index");
         }
+        
+        [HttpPost]
+        public IActionResult Limpar()
+        {
+            string ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "127.0.0.1";
+            _service.LimparHistorico(ip);
+            return RedirectToAction("Index");
+        }
     }
 }

@@ -222,3 +222,4 @@ C:\Users\58064856841\RiderProjects\LittleTigerV2\LittleTigerV2\obj\Debug\net10.0
 C:\Users\58064856841\RiderProjects\LittleTigerV2\LittleTigerV2\obj\Debug\net10.0\LittleTigerV2.pdb
 C:\Users\58064856841\RiderProjects\LittleTigerV2\LittleTigerV2\obj\Debug\net10.0\LittleTigerV2.genruntimeconfig.cache
 C:\Users\58064856841\RiderProjects\LittleTigerV2\LittleTigerV2\obj\Debug\net10.0\ref\LittleTigerV2.dll
+C:\Users\58064856841\RiderProjects\LittleTigerV2\LittleTigerV2\obj\Debug\net10.0\LittleTigerV2.sourcelink.json
